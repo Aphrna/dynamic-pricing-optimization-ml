@@ -1,1 +1,25 @@
+# Dynamic Pricing & Demand Optimization
 
+## Overview
+This project focuses on predicting product demand and determining optimal pricing strategies to maximize profit.
+
+The approach combines machine learning and pricing analysis:
+- Demand is forecasted using historical sales data
+- Features such as past demand, price, discounts, and competitor pricing are used
+- A machine learning model (XGBoost) is trained to predict demand
+- Different price points are simulated to estimate profit
+- The optimal price is selected based on maximum expected profit
+
+## Objective
+To answer the key business question:
+**"What price should be set to maximize profit without significantly reducing demand?"**
+
+## Key Steps
+- Data preprocessing and feature engineering
+- Demand prediction using machine learning
+- Model evaluation using MAE and RMSE
+- Price optimization through simulation
+- Analysis of price sensitivity
+
+## Outcome
+The project demonstrates how data-driven pricing decisions can improve profitability by balancing demand and price effectively.
